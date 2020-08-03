@@ -121,6 +121,7 @@ h6 { font-size: 16px;}
 #navigation{
 	margin:0;
 	padding: 10px;
+	
 }
 
 #navigation li{
@@ -155,12 +156,21 @@ h6 { font-size: 16px;}
 	grid-area: right-column;
 	display: grid;
 	align-content: center;
+	text-align: center;
 
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+.contact-button{
+	border:1px solid #17a2b8;
+	background-color: var(--mainColor);
+	text-align: center;
 
+}
+.footer{
+	text-align: center;
 
+}
 #preview{
 	width: 300px;
 	border:1.5px solid #17a2b8;
@@ -211,14 +221,14 @@ h6 { font-size: 16px;}
 
 .skills{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: left;
 	background-color: var(--previewShadow);
+
 }
 
 .social-links{
-	display: grid;
-	align-content: center;
-	text-align: center;
+		align-content: center;
+	text-align: left;
 }
 
 #social_img{
@@ -244,14 +254,17 @@ h6 { font-size: 16px;}
 .thumbnail{
 	display: block;
 	width: 100%;
-	height:100%;
+	height: 100%;
 	object-fit: cover;
 }
 
 .post-preview{
 	background-color: #fff;
 	padding:30px;
+	width: 258px;
+	height: 300px;
 }
+
 
 .post-title{
 	color:black;
