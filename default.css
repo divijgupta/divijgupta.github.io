@@ -27,6 +27,10 @@ body *{
 	transition: 0.3s;
 }
 
+.section-title {
+	text-align: center;
+}
+
 
 h1, h2, h3, h4, h5, h6, strong{
 	color: var(--mainText);
@@ -217,6 +221,12 @@ h6 { font-size: 16px;}
 	padding-top: 50px;
 	gap:100px;
 }
+.coursework-wrapper{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	padding-bottom: 50px;
+	gap:100px;
+}
 
 
 .skills{
@@ -227,7 +237,7 @@ h6 { font-size: 16px;}
 }
 
 .social-links{
-		align-content: center;
+	align-content: center;
 	text-align: left;
 }
 
@@ -271,9 +281,14 @@ h6 { font-size: 16px;}
 	margin: 0;
 }
 
+
 .post-intro{
 	color:#4b5156;
 	font-size: 14px;
+}
+
+#active {
+	font-size: 20px;
 }
 
 
