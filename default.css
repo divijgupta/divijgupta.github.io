@@ -16,6 +16,9 @@
 	--buttonColor:#17a2b8;
 }
 
+span {
+	text-decoration: underline;
+}
 
 html, body{
 	padding: 0;
