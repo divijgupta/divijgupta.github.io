@@ -1,1 +1,1 @@
-This is the code for my personal portfolio, a single-page, lightweight application.
+This is my personal website.
